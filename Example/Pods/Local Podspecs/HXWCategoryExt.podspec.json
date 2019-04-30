@@ -1,0 +1,22 @@
+{
+  "name": "HXWCategoryExt",
+  "version": "0.1.0",
+  "summary": "A short description of HXWCategoryExt.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hxw/HXWCategoryExt",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hxw": "1375166613@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/hxw/HXWCategoryExt.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HXWCategoryExt/Classes/**/*"
+}

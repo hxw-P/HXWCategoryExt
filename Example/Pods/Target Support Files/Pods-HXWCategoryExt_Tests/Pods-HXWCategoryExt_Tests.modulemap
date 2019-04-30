@@ -1,0 +1,6 @@
+framework module Pods_HXWCategoryExt_Tests {
+  umbrella header "Pods-HXWCategoryExt_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
