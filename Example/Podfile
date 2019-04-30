@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HXWCategoryExt_Example' do
+  pod 'HXWCategoryExt', :path => '../'
+
+  target 'HXWCategoryExt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
