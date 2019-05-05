@@ -15,6 +15,8 @@
 		791B0CFE6F5AE222A7A698666D053267 /* Pods-HXWCategoryExt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE049808BBD70C4ECB23DAF8512FFA48 /* Pods-HXWCategoryExt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A1D2985E7CEB9AF61AAB08635C0FF0F /* NSString+ErrorLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 22CD97120E32D66AB51353CCD0CF9A86 /* NSString+ErrorLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A032CCB1353486BAB075130063BA948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B8E64C25227ECD6000DDCFB1 /* UIView+PopView.h in Headers */ = {isa = PBXBuildFile; fileRef = B8E64C23227ECD6000DDCFB1 /* UIView+PopView.h */; };
+		B8E64C26227ECD6000DDCFB1 /* UIView+PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E64C24227ECD6000DDCFB1 /* UIView+PopView.m */; };
 		CF330B015030C17E52271661AEA8EC8B /* Pods-HXWCategoryExt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 334956D080591C9D68E4C69383938455 /* Pods-HXWCategoryExt_Tests-dummy.m */; };
 		DE8D5EB36495236BF3E79A026341E89B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		E557C7D1FAD0DEE8CBE2D806745F13D2 /* Pods-HXWCategoryExt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B3D73BFA8680C313189067B177D133 /* Pods-HXWCategoryExt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -64,6 +66,8 @@
 		AE049808BBD70C4ECB23DAF8512FFA48 /* Pods-HXWCategoryExt_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXWCategoryExt_Example-umbrella.h"; sourceTree = "<group>"; };
 		B201A09A5C617DDEF6BC372F9104501D /* Pods-HXWCategoryExt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXWCategoryExt_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B461C11C59CD234676AB3484D5DC5727 /* Pods-HXWCategoryExt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXWCategoryExt_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B8E64C23227ECD6000DDCFB1 /* UIView+PopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+PopView.h"; sourceTree = "<group>"; };
+		B8E64C24227ECD6000DDCFB1 /* UIView+PopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+PopView.m"; sourceTree = "<group>"; };
 		BF6270435F91B96F021A91832153006A /* Pods-HXWCategoryExt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXWCategoryExt_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C51DB1971BD468471AC8CED33726B59E /* HXWCategoryExt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXWCategoryExt-dummy.m"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -148,6 +152,8 @@
 			children = (
 				22CD97120E32D66AB51353CCD0CF9A86 /* NSString+ErrorLog.h */,
 				6C461D32FADF3AC688BF279B0A18F6B4 /* NSString+ErrorLog.m */,
+				B8E64C23227ECD6000DDCFB1 /* UIView+PopView.h */,
+				B8E64C24227ECD6000DDCFB1 /* UIView+PopView.m */,
 			);
 			name = CategrayExt;
 			path = HXWCategoryExt/Classes/CategrayExt;
@@ -244,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				326C56C3CDB9E17CE54873ED3FC9B40C /* HXWCategoryExt-umbrella.h in Headers */,
+				B8E64C25227ECD6000DDCFB1 /* UIView+PopView.h in Headers */,
 				8A1D2985E7CEB9AF61AAB08635C0FF0F /* NSString+ErrorLog.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A077FAD45948BCAA140CD124213F67B /* HXWCategoryExt-dummy.m in Sources */,
+				B8E64C26227ECD6000DDCFB1 /* UIView+PopView.m in Sources */,
 				2156A5A8CF38CCAA8C9B68BF1302378C /* NSString+ErrorLog.m in Sources */,
 				0B3D8D934D1AA5FFCF90AA9FC799F313 /* ReplaceMe.m in Sources */,
 			);
