@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B3D8D934D1AA5FFCF90AA9FC799F313 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3FEE9BE40397739DA04138A6AC07B /* ReplaceMe.m */; };
-		1A077FAD45948BCAA140CD124213F67B /* HXWCategoryExt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C51DB1971BD468471AC8CED33726B59E /* HXWCategoryExt-dummy.m */; };
-		2156A5A8CF38CCAA8C9B68BF1302378C /* NSString+ErrorLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C461D32FADF3AC688BF279B0A18F6B4 /* NSString+ErrorLog.m */; };
-		2BC76FE4ABD0E606641C73F42BBCD28D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		326C56C3CDB9E17CE54873ED3FC9B40C /* HXWCategoryExt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD9B3918CF97049B4EA426CE0BFB5E6 /* HXWCategoryExt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52368E6FE06AB28F10AC82ED614FB096 /* HXWCategoryExt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE87DC56C3CD6E9174186846BB5D92A9 /* HXWCategoryExt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		580023B206004192EB02E1823EF704D7 /* NSString+ErrorLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2260DEB1695FABC5CF7D106584A84760 /* NSString+ErrorLog.m */; };
 		791B0CFE6F5AE222A7A698666D053267 /* Pods-HXWCategoryExt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE049808BBD70C4ECB23DAF8512FFA48 /* Pods-HXWCategoryExt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A1D2985E7CEB9AF61AAB08635C0FF0F /* NSString+ErrorLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 22CD97120E32D66AB51353CCD0CF9A86 /* NSString+ErrorLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83BA94A71EA51A766F5CFA6B59FB385A /* HXWCategoryExt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6305E3366FE46512D3CF6260D7146C /* HXWCategoryExt-dummy.m */; };
 		9A032CCB1353486BAB075130063BA948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		B8E64C25227ECD6000DDCFB1 /* UIView+PopView.h in Headers */ = {isa = PBXBuildFile; fileRef = B8E64C23227ECD6000DDCFB1 /* UIView+PopView.h */; };
-		B8E64C26227ECD6000DDCFB1 /* UIView+PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E64C24227ECD6000DDCFB1 /* UIView+PopView.m */; };
+		9CEC80C2DDEE46D81686B0B363564B92 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AB3B912E19DDDA3C6FF9E043B6CED3 /* ReplaceMe.m */; };
+		B71A4E9C50849194C176B71B9424666C /* NSString+ErrorLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BF522BD2439954790B83EABF71AE94 /* NSString+ErrorLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B836A77A22816653003CA8DE /* mTest.h in Headers */ = {isa = PBXBuildFile; fileRef = B836A77822816653003CA8DE /* mTest.h */; };
+		B836A77B22816653003CA8DE /* mTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B836A77922816653003CA8DE /* mTest.m */; };
+		C45D2E4954B7F121A11E0630BB5EAB43 /* UIView+PopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4097EAF1384551A104C872F940D6EDFF /* UIView+PopView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA3F9068E623B53B0AF9592163A52FF4 /* UIView+PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBDEB3EAE00B74079022D191C71F29C /* UIView+PopView.m */; };
 		CF330B015030C17E52271661AEA8EC8B /* Pods-HXWCategoryExt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 334956D080591C9D68E4C69383938455 /* Pods-HXWCategoryExt_Tests-dummy.m */; };
+		D6C0FA366AD09EBE7C6AD4B199B1B3ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		DE8D5EB36495236BF3E79A026341E89B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		E557C7D1FAD0DEE8CBE2D806745F13D2 /* Pods-HXWCategoryExt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B3D73BFA8680C313189067B177D133 /* Pods-HXWCategoryExt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDB79EC9D10202ED8DBC96B844260C5B /* Pods-HXWCategoryExt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFC84FBB298995B52362826B51140E6 /* Pods-HXWCategoryExt_Example-dummy.m */; };
@@ -35,48 +37,50 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DF6108C3CF734F170133FED633375EF3;
+			remoteGlobalIDString = 06A7147A78223862F07918EDB681CC34;
 			remoteInfo = HXWCategoryExt;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04BF522BD2439954790B83EABF71AE94 /* NSString+ErrorLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ErrorLog.h"; path = "HXWCategoryExt/Classes/CategrayExt/NSString+ErrorLog.h"; sourceTree = "<group>"; };
+		097AA657F07A9D7205DB2117E64C6466 /* HXWCategoryExt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HXWCategoryExt.modulemap; sourceTree = "<group>"; };
+		0B1D28867A2F107BE82F764491C24421 /* HXWCategoryExt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HXWCategoryExt-Info.plist"; sourceTree = "<group>"; };
 		0B521CD40652C30B69AEE407DFA27379 /* Pods-HXWCategoryExt_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXWCategoryExt_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		11762D959D308AA3F93B81E4D17D6DF4 /* Pods-HXWCategoryExt_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXWCategoryExt_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1BF3FEE9BE40397739DA04138A6AC07B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HXWCategoryExt/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		1F3F659CC82CD08AF3FF7DDC0620E829 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1FFC84FBB298995B52362826B51140E6 /* Pods-HXWCategoryExt_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HXWCategoryExt_Example-dummy.m"; sourceTree = "<group>"; };
-		22CD97120E32D66AB51353CCD0CF9A86 /* NSString+ErrorLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ErrorLog.h"; sourceTree = "<group>"; };
-		2FDD7EBC97D5865818D2CBC024F50134 /* HXWCategoryExt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HXWCategoryExt-Info.plist"; sourceTree = "<group>"; };
+		2260DEB1695FABC5CF7D106584A84760 /* NSString+ErrorLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ErrorLog.m"; path = "HXWCategoryExt/Classes/CategrayExt/NSString+ErrorLog.m"; sourceTree = "<group>"; };
 		334956D080591C9D68E4C69383938455 /* Pods-HXWCategoryExt_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HXWCategoryExt_Tests-dummy.m"; sourceTree = "<group>"; };
-		3CA769E04808B68DDFF7A163CD8EE483 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3D6582E3BB4F938AA35069567AE82A79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F7C7BFCB52859F8A9784EEEF5618023 /* Pods-HXWCategoryExt_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXWCategoryExt_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3FF23B3CA57B00F412CA97474F6E9EFE /* Pods-HXWCategoryExt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXWCategoryExt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		440A247CDE49728E660D435CC594EE3A /* HXWCategoryExt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HXWCategoryExt.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		4097EAF1384551A104C872F940D6EDFF /* UIView+PopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+PopView.h"; path = "HXWCategoryExt/Classes/CategrayExt/UIView+PopView.h"; sourceTree = "<group>"; };
 		44BA3B74AB48720BBBF2838EB1F9C4A1 /* Pods-HXWCategoryExt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HXWCategoryExt_Example.modulemap"; sourceTree = "<group>"; };
 		45B3D73BFA8680C313189067B177D133 /* Pods-HXWCategoryExt_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXWCategoryExt_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4B1531A2E13B9F0679E14F35AAEA71A0 /* Pods-HXWCategoryExt_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXWCategoryExt_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B42271508147586EB417C01B3349E85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5354CDD896440A5BA0B70FE6C60E2FC6 /* Pods-HXWCategoryExt_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXWCategoryExt_Example-Info.plist"; sourceTree = "<group>"; };
 		636F7702CD06515152135FFCD540B493 /* HXWCategoryExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HXWCategoryExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C461D32FADF3AC688BF279B0A18F6B4 /* NSString+ErrorLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ErrorLog.m"; sourceTree = "<group>"; };
-		825E215FEBE13301B2C98389AEEFD576 /* HXWCategoryExt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HXWCategoryExt.modulemap; sourceTree = "<group>"; };
-		90BAE93AE5A6563652C43865B54893C5 /* HXWCategoryExt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXWCategoryExt-prefix.pch"; sourceTree = "<group>"; };
+		72AB3B912E19DDDA3C6FF9E043B6CED3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HXWCategoryExt/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ABD9B3918CF97049B4EA426CE0BFB5E6 /* HXWCategoryExt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXWCategoryExt-umbrella.h"; sourceTree = "<group>"; };
 		AE049808BBD70C4ECB23DAF8512FFA48 /* Pods-HXWCategoryExt_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXWCategoryExt_Example-umbrella.h"; sourceTree = "<group>"; };
+		AE87DC56C3CD6E9174186846BB5D92A9 /* HXWCategoryExt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXWCategoryExt-umbrella.h"; sourceTree = "<group>"; };
 		B201A09A5C617DDEF6BC372F9104501D /* Pods-HXWCategoryExt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXWCategoryExt_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B461C11C59CD234676AB3484D5DC5727 /* Pods-HXWCategoryExt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXWCategoryExt_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B8E64C23227ECD6000DDCFB1 /* UIView+PopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+PopView.h"; sourceTree = "<group>"; };
-		B8E64C24227ECD6000DDCFB1 /* UIView+PopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+PopView.m"; sourceTree = "<group>"; };
+		B836A77822816653003CA8DE /* mTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mTest.h; sourceTree = "<group>"; };
+		B836A77922816653003CA8DE /* mTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mTest.m; sourceTree = "<group>"; };
+		BBBDEB3EAE00B74079022D191C71F29C /* UIView+PopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+PopView.m"; path = "HXWCategoryExt/Classes/CategrayExt/UIView+PopView.m"; sourceTree = "<group>"; };
 		BF6270435F91B96F021A91832153006A /* Pods-HXWCategoryExt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXWCategoryExt_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C51DB1971BD468471AC8CED33726B59E /* HXWCategoryExt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXWCategoryExt-dummy.m"; sourceTree = "<group>"; };
+		CA6305E3366FE46512D3CF6260D7146C /* HXWCategoryExt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXWCategoryExt-dummy.m"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CFF2D68EA185D0D39834DA44AC0D9D00 /* Pods-HXWCategoryExt_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXWCategoryExt_Tests-Info.plist"; sourceTree = "<group>"; };
 		DF32A8F43959A8BF573F38D9E5BE27C5 /* Pods_HXWCategoryExt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXWCategoryExt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E89514DC962F40BFCE6A3A683830F244 /* HXWCategoryExt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXWCategoryExt.xcconfig; sourceTree = "<group>"; };
 		E9B73F4A6A1313525E71C7D88D3ADC4D /* Pods-HXWCategoryExt_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXWCategoryExt_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EA6A194913143BDDCC8F481980C41983 /* Pods-HXWCategoryExt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HXWCategoryExt_Tests.modulemap"; sourceTree = "<group>"; };
+		EC2ED801ADFF6AE9E838AC6D9A64B25B /* HXWCategoryExt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HXWCategoryExt.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F64573DA06BF4E5A497719BF5E9992A1 /* Pods_HXWCategoryExt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXWCategoryExt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8042D8A5AC6D9E06049CFFEED43552A /* HXWCategoryExt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXWCategoryExt.xcconfig; sourceTree = "<group>"; };
+		FBDD5CF809121BD6859B8A5F53B16CF5 /* HXWCategoryExt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXWCategoryExt-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,37 +100,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C8F8CB43D3AC0E9093E77600D5A94A2 /* Frameworks */ = {
+		D5415E21D5010314A7C875B6CA9B9132 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BC76FE4ABD0E606641C73F42BBCD28D /* Foundation.framework in Frameworks */,
+				D6C0FA366AD09EBE7C6AD4B199B1B3ED /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24CD49E391D2E8D6794F90C52C442131 /* Support Files */ = {
+		3028ECF130F52A9804EBDBAFA7AA0180 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				825E215FEBE13301B2C98389AEEFD576 /* HXWCategoryExt.modulemap */,
-				E89514DC962F40BFCE6A3A683830F244 /* HXWCategoryExt.xcconfig */,
-				C51DB1971BD468471AC8CED33726B59E /* HXWCategoryExt-dummy.m */,
-				2FDD7EBC97D5865818D2CBC024F50134 /* HXWCategoryExt-Info.plist */,
-				90BAE93AE5A6563652C43865B54893C5 /* HXWCategoryExt-prefix.pch */,
-				ABD9B3918CF97049B4EA426CE0BFB5E6 /* HXWCategoryExt-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HXWCategoryExt";
-			sourceTree = "<group>";
-		};
-		34ACF753CBA66159D53AD77E8C6A71E1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				440A247CDE49728E660D435CC594EE3A /* HXWCategoryExt.podspec */,
-				1F3F659CC82CD08AF3FF7DDC0620E829 /* LICENSE */,
-				3CA769E04808B68DDFF7A163CD8EE483 /* README.md */,
+				EC2ED801ADFF6AE9E838AC6D9A64B25B /* HXWCategoryExt.podspec */,
+				4B42271508147586EB417C01B3349E85 /* LICENSE */,
+				3D6582E3BB4F938AA35069567AE82A79 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -147,22 +137,24 @@
 			path = "Target Support Files/Pods-HXWCategoryExt_Tests";
 			sourceTree = "<group>";
 		};
-		6F1F78D100A312A5DCDE6D8D5906BDF9 /* CategrayExt */ = {
+		78F8E2DC46A93FD00DAE8B6653490879 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				22CD97120E32D66AB51353CCD0CF9A86 /* NSString+ErrorLog.h */,
-				6C461D32FADF3AC688BF279B0A18F6B4 /* NSString+ErrorLog.m */,
-				B8E64C23227ECD6000DDCFB1 /* UIView+PopView.h */,
-				B8E64C24227ECD6000DDCFB1 /* UIView+PopView.m */,
+				097AA657F07A9D7205DB2117E64C6466 /* HXWCategoryExt.modulemap */,
+				F8042D8A5AC6D9E06049CFFEED43552A /* HXWCategoryExt.xcconfig */,
+				CA6305E3366FE46512D3CF6260D7146C /* HXWCategoryExt-dummy.m */,
+				0B1D28867A2F107BE82F764491C24421 /* HXWCategoryExt-Info.plist */,
+				FBDD5CF809121BD6859B8A5F53B16CF5 /* HXWCategoryExt-prefix.pch */,
+				AE87DC56C3CD6E9174186846BB5D92A9 /* HXWCategoryExt-umbrella.h */,
 			);
-			name = CategrayExt;
-			path = HXWCategoryExt/Classes/CategrayExt;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HXWCategoryExt";
 			sourceTree = "<group>";
 		};
 		87FE12BAC40834FC28D12ED23D2A9768 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9B3766771516D482D4168CB3AA27F47A /* HXWCategoryExt */,
+				E2450D9E91A65DD45B0AB29A7B21C076 /* HXWCategoryExt */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -175,16 +167,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9B3766771516D482D4168CB3AA27F47A /* HXWCategoryExt */ = {
+		B88D49E4228163780005C0B9 /* mmmm */ = {
 			isa = PBXGroup;
 			children = (
-				1BF3FEE9BE40397739DA04138A6AC07B /* ReplaceMe.m */,
-				6F1F78D100A312A5DCDE6D8D5906BDF9 /* CategrayExt */,
-				34ACF753CBA66159D53AD77E8C6A71E1 /* Pod */,
-				24CD49E391D2E8D6794F90C52C442131 /* Support Files */,
+				B836A77822816653003CA8DE /* mTest.h */,
+				B836A77922816653003CA8DE /* mTest.m */,
 			);
-			name = HXWCategoryExt;
-			path = ../..;
+			name = mmmm;
+			path = HXWCategoryExt/Classes/mmmm;
 			sourceTree = "<group>";
 		};
 		CBA681AB4A1B2819101B390E6580AAA5 /* Pods-HXWCategoryExt_Example */ = {
@@ -223,6 +213,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E2450D9E91A65DD45B0AB29A7B21C076 /* HXWCategoryExt */ = {
+			isa = PBXGroup;
+			children = (
+				72AB3B912E19DDDA3C6FF9E043B6CED3 /* ReplaceMe.m */,
+				B88D49E4228163780005C0B9 /* mmmm */,
+				E361B29CA4C71BBD2896BC9DE668A6C4 /* CategrayExt */,
+				3028ECF130F52A9804EBDBAFA7AA0180 /* Pod */,
+				78F8E2DC46A93FD00DAE8B6653490879 /* Support Files */,
+			);
+			name = HXWCategoryExt;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E361B29CA4C71BBD2896BC9DE668A6C4 /* CategrayExt */ = {
+			isa = PBXGroup;
+			children = (
+				04BF522BD2439954790B83EABF71AE94 /* NSString+ErrorLog.h */,
+				2260DEB1695FABC5CF7D106584A84760 /* NSString+ErrorLog.m */,
+				4097EAF1384551A104C872F940D6EDFF /* UIView+PopView.h */,
+				BBBDEB3EAE00B74079022D191C71F29C /* UIView+PopView.m */,
+			);
+			name = CategrayExt;
+			sourceTree = "<group>";
+		};
 		E5DAB5E60518267617B6BB46373B947D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,13 +259,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		30D5AF4B1FCF430CB0989AE51771FD68 /* Headers */ = {
+		B543E5B14708C177436399C4AEBEF3F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326C56C3CDB9E17CE54873ED3FC9B40C /* HXWCategoryExt-umbrella.h in Headers */,
-				B8E64C25227ECD6000DDCFB1 /* UIView+PopView.h in Headers */,
-				8A1D2985E7CEB9AF61AAB08635C0FF0F /* NSString+ErrorLog.h in Headers */,
+				52368E6FE06AB28F10AC82ED614FB096 /* HXWCategoryExt-umbrella.h in Headers */,
+				B71A4E9C50849194C176B71B9424666C /* NSString+ErrorLog.h in Headers */,
+				B836A77A22816653003CA8DE /* mTest.h in Headers */,
+				C45D2E4954B7F121A11E0630BB5EAB43 /* UIView+PopView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +289,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		06A7147A78223862F07918EDB681CC34 /* HXWCategoryExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1B8ACB9EA74E06B2DF2199EC063F82 /* Build configuration list for PBXNativeTarget "HXWCategoryExt" */;
+			buildPhases = (
+				B543E5B14708C177436399C4AEBEF3F4 /* Headers */,
+				6240A411C1E08F382825D3CE1DB61F34 /* Sources */,
+				D5415E21D5010314A7C875B6CA9B9132 /* Frameworks */,
+				71B06D49E53283F958276A2A3D2E1F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXWCategoryExt;
+			productName = HXWCategoryExt;
+			productReference = 636F7702CD06515152135FFCD540B493 /* HXWCategoryExt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		9CE6E726662572B6B559A9879B8A9A03 /* Pods-HXWCategoryExt_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE7E75E60E7253A0805E25AED0D50B87 /* Build configuration list for PBXNativeTarget "Pods-HXWCategoryExt_Example" */;
@@ -312,24 +345,6 @@
 			productReference = DF32A8F43959A8BF573F38D9E5BE27C5 /* Pods_HXWCategoryExt_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DF6108C3CF734F170133FED633375EF3 /* HXWCategoryExt */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 643036645FE5DA8B19C475C10365DCE8 /* Build configuration list for PBXNativeTarget "HXWCategoryExt" */;
-			buildPhases = (
-				30D5AF4B1FCF430CB0989AE51771FD68 /* Headers */,
-				531118BFDDB8E43A76361598E827B574 /* Sources */,
-				9C8F8CB43D3AC0E9093E77600D5A94A2 /* Frameworks */,
-				232FC7C76C2411E8021F60ED4B23D6D5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HXWCategoryExt;
-			productName = HXWCategoryExt;
-			productReference = 636F7702CD06515152135FFCD540B493 /* HXWCategoryExt.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -345,13 +360,14 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = E5F13B07BDE2F11B7DAD1F6B1004D526 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF6108C3CF734F170133FED633375EF3 /* HXWCategoryExt */,
+				06A7147A78223862F07918EDB681CC34 /* HXWCategoryExt */,
 				9CE6E726662572B6B559A9879B8A9A03 /* Pods-HXWCategoryExt_Example */,
 				A2D5EB718AB8DED92C7A52DFC15ED879 /* Pods-HXWCategoryExt_Tests */,
 			);
@@ -359,14 +375,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		232FC7C76C2411E8021F60ED4B23D6D5 /* Resources */ = {
+		43FC173AE46475CD2C41DA85D544B2A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43FC173AE46475CD2C41DA85D544B2A9 /* Resources */ = {
+		71B06D49E53283F958276A2A3D2E1F43 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -391,14 +407,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		531118BFDDB8E43A76361598E827B574 /* Sources */ = {
+		6240A411C1E08F382825D3CE1DB61F34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A077FAD45948BCAA140CD124213F67B /* HXWCategoryExt-dummy.m in Sources */,
-				B8E64C26227ECD6000DDCFB1 /* UIView+PopView.m in Sources */,
-				2156A5A8CF38CCAA8C9B68BF1302378C /* NSString+ErrorLog.m in Sources */,
-				0B3D8D934D1AA5FFCF90AA9FC799F313 /* ReplaceMe.m in Sources */,
+				B836A77B22816653003CA8DE /* mTest.m in Sources */,
+				83BA94A71EA51A766F5CFA6B59FB385A /* HXWCategoryExt-dummy.m in Sources */,
+				580023B206004192EB02E1823EF704D7 /* NSString+ErrorLog.m in Sources */,
+				9CEC80C2DDEE46D81686B0B363564B92 /* ReplaceMe.m in Sources */,
+				CA3F9068E623B53B0AF9592163A52FF4 /* UIView+PopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +433,7 @@
 		73003AD14DD201CBB9A2738F7D5247C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HXWCategoryExt;
-			target = DF6108C3CF734F170133FED633375EF3 /* HXWCategoryExt */;
+			target = 06A7147A78223862F07918EDB681CC34 /* HXWCategoryExt */;
 			targetProxy = EBFD83A6AF2AB69495204ADDCA335E23 /* PBXContainerItemProxy */;
 		};
 		D48D6B3CF3B5E12FB7B053CF9CBDCF08 /* PBXTargetDependency */ = {
@@ -430,7 +447,6 @@
 /* Begin XCBuildConfiguration section */
 		01944CFD7A37274238804FE67F3E591A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B201A09A5C617DDEF6BC372F9104501D /* Pods-HXWCategoryExt_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -523,7 +539,6 @@
 		};
 		299D9AE98EB852B0B07C913CDE1BD5F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B461C11C59CD234676AB3484D5DC5727 /* Pods-HXWCategoryExt_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -618,9 +633,38 @@
 			};
 			name = Debug;
 		};
-		598931B11E5E783F4D0B0AC33544D62C /* Debug */ = {
+		82D8D6EA0C2D7075506B5564457BF3EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E89514DC962F40BFCE6A3A683830F244 /* HXWCategoryExt.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HXWCategoryExt/HXWCategoryExt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HXWCategoryExt/HXWCategoryExt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HXWCategoryExt/HXWCategoryExt.modulemap";
+				PRODUCT_MODULE_NAME = HXWCategoryExt;
+				PRODUCT_NAME = HXWCategoryExt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DA84E43556FEF3757DEB5F4FCA6072C /* Debug */ = {
+			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -650,7 +694,6 @@
 		};
 		AA9F275B89EB41353B11BFD44608B770 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FF23B3CA57B00F412CA97474F6E9EFE /* Pods-HXWCategoryExt_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -681,40 +724,8 @@
 			};
 			name = Debug;
 		};
-		BBE82126AFCACB3FF56B311F91E21BA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E89514DC962F40BFCE6A3A683830F244 /* HXWCategoryExt.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HXWCategoryExt/HXWCategoryExt-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HXWCategoryExt/HXWCategoryExt-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HXWCategoryExt/HXWCategoryExt.modulemap";
-				PRODUCT_MODULE_NAME = HXWCategoryExt;
-				PRODUCT_NAME = HXWCategoryExt;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		D023B349C4D2474BE52C5AFA31B8DFD8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF6270435F91B96F021A91832153006A /* Pods-HXWCategoryExt_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -758,11 +769,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		643036645FE5DA8B19C475C10365DCE8 /* Build configuration list for PBXNativeTarget "HXWCategoryExt" */ = {
+		8C1B8ACB9EA74E06B2DF2199EC063F82 /* Build configuration list for PBXNativeTarget "HXWCategoryExt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				598931B11E5E783F4D0B0AC33544D62C /* Debug */,
-				BBE82126AFCACB3FF56B311F91E21BA3 /* Release */,
+				8DA84E43556FEF3757DEB5F4FCA6072C /* Debug */,
+				82D8D6EA0C2D7075506B5564457BF3EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

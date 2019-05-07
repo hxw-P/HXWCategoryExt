@@ -37,6 +37,10 @@ TODO: Add long description of the pod here.
   ss.source_files = 'HXWCategoryExt/Classes/CategrayExt/*'
   end
   
+  s.subspec 'CategrayExt' do |ss|
+  ss.source_files = 'HXWCategoryExt/Classes/CategrayExt/*'
+  end
+  
   # s.resource_bundles = {
   #   'HXWCategoryExt' => ['HXWCategoryExt/Assets/*.png']
   # }

@@ -11,6 +11,7 @@
 #endif
 
 #import "NSString+ErrorLog.h"
+#import "UIView+PopView.h"
 
 FOUNDATION_EXPORT double HXWCategoryExtVersionNumber;
 FOUNDATION_EXPORT const unsigned char HXWCategoryExtVersionString[];

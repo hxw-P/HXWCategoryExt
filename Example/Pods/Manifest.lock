@@ -1,5 +1,7 @@
 PODS:
-  - HXWCategoryExt (0.1.0)
+  - HXWCategoryExt (0.3.0):
+    - HXWCategoryExt/CategrayExt (= 0.3.0)
+  - HXWCategoryExt/CategrayExt (0.3.0)
 
 DEPENDENCIES:
   - HXWCategoryExt (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HXWCategoryExt: fb1dcc88b100ea8850f49c224d64f11c75af9489
+  HXWCategoryExt: 133da16acd91519b8fc77a4b8263ea8920745088
 
 PODFILE CHECKSUM: 04f6b7ccdded75a64336697ec849444340bc9706
 
