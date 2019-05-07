@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HXWCategoryExt'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of HXWCategoryExt.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HXWCategoryExt/Classes/**/*'
+  s.source_files = 'HXWCategoryExt/Classes/*'
+
+#-----文件分级----#
+  s.subspec 'CategrayExt' do |ss|
+  ss.source_files = 'HXWCategoryExt/Classes/CategrayExt/*'
+  end
   
   # s.resource_bundles = {
   #   'HXWCategoryExt' => ['HXWCategoryExt/Assets/*.png']
